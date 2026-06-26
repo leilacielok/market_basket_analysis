@@ -12,7 +12,7 @@ Each movie is modelled as a basket, while the actors appearing in the columns `S
 - **PCY**: hash-based optimization of Apriori designed to reduce the number of candidate pairs through bucket counting and bitmap filtering.
 - **SON**: partition-based algorithm that mines candidates locally on data chunks and validates them globally through a second counting phase.
 
-# Main Findings
+## Main Findings
 
 The three algorithms return the same frequent itemsets, confirming the correctness of the implementations. However, their execution profiles differ.
 
